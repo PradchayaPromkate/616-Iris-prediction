@@ -4,7 +4,7 @@ from sklearn.linear_model import Perceptron
 import pickle
 
 model = pickle.load(open('per_model-66130701709.sav', 'rb'))
-st.title('Iris Flower Prediction App')
+st.title('Iris species Prediction using Perceptron by pradchaya')
  
 x1 = st.slider('Sepal Length', 0.0, 10.0, 0.1)
 x2 = st.slider('Sepal Width', 0.0, 10.0, 0.1)
